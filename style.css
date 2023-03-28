@@ -1,0 +1,97 @@
+header {
+    width: 100%;
+}
+
+#banner-central {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1, h2 {
+    font-size: auto;
+}
+
+#secao-livros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-livros {
+    background-color: black;
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.livros {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.btn_conheca_o_livro {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: springgreen;
+    border: 1px solid springgreen;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.oferta {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: springgreen;
+    border: 1px solid springgreen;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#fechamento {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#footer-viladev {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
